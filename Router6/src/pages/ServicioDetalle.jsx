@@ -6,7 +6,7 @@ export function ServicioDetalle({ servicios }) {
 
   return (
     <section>
-      <h1>Detalle del Producto</h1>
+      <h1>Detalle del Servicio</h1>
       <h2>{servicio.nombre}</h2>
       <h2>{servicio.id}</h2>
       <h2>{servicio.precio}</h2>

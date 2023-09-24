@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  /*padding-top: 50px;*/
+}
+/*con el padding-top de 50px (que es el mismo valor de la altura de la cabecera fixed,
+se evita que la cabecera tapa a ese primer titu)*/
+
+.header {
+  background-color: mistyrose;
+  width: 100%;
+  height: 50px;
+}
+
+.fixed-top {
+  position: fixed;
+  top: 0;
+}
+
+.sticky-top {
+  position: sticky;
+  top: 0;
+}
+
+.hero-image {
+  background-color: palegoldenrod;
+  width: 100%;
+  height: 100vh;
+}
+
+.slide {
+  background-color: paleturquoise;
+  width: 100%;
+  height: 100vh;
+}
+
+.slide:nth-child(odd) {
+  background-color: palevioletred;
+}
+
+.slide-title {
+  background-color: palegreen;
+  padding: 16px;
+  text-align: center;
+  position: sticky;
+  top: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
