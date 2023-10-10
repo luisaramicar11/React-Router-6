@@ -37,6 +37,7 @@ function App() {
             path="/productos/:id"
             element={<ProductoDetalle productos={productos} />}
           ></Route>
+
           <Route path="*" element={<Error404 />}></Route>
         </Routes>
       </BrowserRouter>

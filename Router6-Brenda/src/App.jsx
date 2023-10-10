@@ -18,6 +18,7 @@ function App() {
           <Route path="/acerca" element={<Acerca />}></Route>
           <Route path="/about" element={<Navigate to="/acerca" />}></Route>
           <Route path="/contacto" element={<Contacto />}></Route>
+
           <Route path="*" element={<Error404 />}></Route>
         </Routes>
       </BrowserRouter>
